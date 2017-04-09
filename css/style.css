@@ -16,7 +16,6 @@ html,body {
 
 body {
     width: 80%;
-  
     background-color: #e8e8e7;
     margin-top: 5%;
 }
@@ -32,7 +31,7 @@ body {
 img {
     max-width: 100%;
 }
-.info {
+/*.info {
     width: 40%;
     margin:auto;
     border:1px solid white;
@@ -42,8 +41,8 @@ img {
     bottom: 50%;
     text-align: center;
     color: #fff;
-}
-/*.info {
+}*/
+.info {
 
    width: 35%;
     margin: auto;
@@ -55,7 +54,7 @@ img {
     top: -227px;
     text-align: center;
     color: #fff
-}*/
+}
 }
 .name , .job {
     width: 100%;
@@ -75,10 +74,7 @@ img {
 @media screen and (max-width: 1000px)
 {
 .info {
-    margin-bottom: 136px;
-    margin-left: auto;
-    margin-right: auto
-
+    margin-bottom: 80px;
 }
 
 }
