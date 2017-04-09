@@ -30,9 +30,9 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
-/*.info {
+.info {
     width: 40%;
     margin:auto;
     border:1px solid white;
@@ -42,8 +42,8 @@ img {
     bottom: 50%;
     text-align: center;
     color: #fff;
-}*/
-.info {
+}
+/*.info {
 
    width: 35%;
     margin: auto;
@@ -55,7 +55,7 @@ img {
     top: -227px;
     text-align: center;
     color: #fff
-}
+}*/
 }
 .name , .job {
     width: 100%;
@@ -71,4 +71,14 @@ img {
     border-top: 10px solid #8BCC98;
     margin: 1em 0;
     padding: 0; 
+}
+@media screen and (max-width: 1000px)
+{
+.info {
+    margin-bottom: 136px;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
 }
