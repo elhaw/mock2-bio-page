@@ -1,0 +1,74 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     box-sizing: border-box;
+} 
+/** {
+   outline: 1px solid red !important;
+}*/
+
+html,body {
+    margin:auto;
+    display: block;
+}
+
+body {
+    width: 80%;
+  
+    background-color: #e8e8e7;
+    margin-top: 5%;
+}
+
+
+}
+
+.inner-container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img {
+    width: 100%;
+}
+/*.info {
+    width: 40%;
+    margin:auto;
+    border:1px solid white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    text-align: center;
+    color: #fff;
+}*/
+.info {
+
+   width: 35%;
+    margin: auto;
+    border: 1px solid white;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    top: -227px;
+    text-align: center;
+    color: #fff
+}
+}
+.name , .job {
+    width: 100%;
+}
+.inner-container {
+    width:70%;
+    margin:auto;
+}
+    hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 10px solid #8BCC98;
+    margin: 1em 0;
+    padding: 0; 
+}
