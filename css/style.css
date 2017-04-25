@@ -40,6 +40,7 @@ body {
     margin: 1em 0;
     padding: 0; 
 }
+/*back ground image*/
 #background {
     background:url(iphone.jpg);
     background-color: wheat;
