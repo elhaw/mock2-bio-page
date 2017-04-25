@@ -42,10 +42,9 @@ body {
 }
 /*back ground image*/
 #background {
-    background:url(iphone.jpg);
-    background-color: wheat;
+    background:url(../img/iphone.jpg);
     /*image fill container area*/
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
