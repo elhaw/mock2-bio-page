@@ -28,37 +28,6 @@ body {
     margin-right: 15%;
 }
 
-img {
-    max-width: 100%;
-}
-/*.info {
-    width: 40%;
-    margin:auto;
-    border:1px solid white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 50%;
-    text-align: center;
-    color: #fff;
-}*/
-.info {
-
-   width: 35%;
-    margin: auto;
-    border: 1px solid white;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    top: -227px;
-    text-align: center;
-    color: #fff
-}
-}
-.name , .job {
-    width: 100%;
-}
 .inner-container {
     width:70%;
     margin:auto;
@@ -71,10 +40,19 @@ img {
     margin: 1em 0;
     padding: 0; 
 }
-@media screen and (max-width: 1000px)
-{
-.info {
-    margin-bottom: 80px;
+#background {
+    background:url(iphone.jpg);
+    background-color: wheat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
-
+#background div {
+    font-size: 4vmin;
+    text-align: center;
+    height: 15vw;
+    width: 30vw;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
 }
