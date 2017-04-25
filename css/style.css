@@ -43,6 +43,7 @@ body {
 #background {
     background:url(iphone.jpg);
     background-color: wheat;
+    /*image fill container area*/
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
