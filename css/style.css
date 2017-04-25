@@ -51,8 +51,12 @@ body {
 #background div {
     font-size: 4vmin;
     text-align: center;
-    height: 15vw;
-    width: 30vw;
     margin-top: 5vw;
     margin-bottom: 1vw;
+}
+.info {
+    padding-top: 10px;
+    border: 2px solid green;
+    height: 15vmin;
+    width: 37vmin;
 }
