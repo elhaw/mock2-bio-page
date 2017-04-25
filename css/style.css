@@ -56,8 +56,9 @@ body {
     margin-bottom: 1vw;
 }
 .info {
+    color: white;
     padding-top: 10px;
-    border: 2px solid green;
+    border: 2px solid white;
     height: 15vmin;
     width: 37vmin;
 }
